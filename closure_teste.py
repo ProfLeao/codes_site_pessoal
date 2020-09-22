@@ -96,7 +96,7 @@ if __name__ == "__main__":
     sum_full_model = np.array([modelo(i, xis, yps) for i in param])
     end_time = timer()
     print(
-        "O melhor tempo de execução para o modelo completo foi de " +\
+        "O tempo de execução para o modelo completo foi de " +\
         f"{end_time - start_time} segundos."
     )
 
@@ -106,7 +106,7 @@ if __name__ == "__main__":
     end_time = timer()
 
     print(
-        "O melhor tempo de execução para o modelo enclausurado foi de " +\
+        "O tempo de execução para o modelo enclausurado foi de " +\
         f"{end_time - start_time} segundos."
     )
 
